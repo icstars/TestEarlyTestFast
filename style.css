@@ -1,19 +1,32 @@
 body {
       font-family: Arial, sans-serif;
       /* margin: 20px; */
+      margin: 0;
+      padding: 0;
+      
+      
     }
     header{
-        display: flex;
-        align-items: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 200px;
+        width: 100%;
       
         
     }
-    header> .left-column > img{
+    header> .left-column > .logo img{
         height: 100px;
         width: 100px;
     }
+     header> .left-column > .logo{
+       display: flex;
+       justify-content: flex-start;
+     
+    }
     header> .center-column{
-        width: 850px;
+        width: 950px;
+     
     }
     .product {
         
@@ -36,4 +49,8 @@ body {
     .cart-count img{
         width: 30px;
         height: auto;
+    }
+    form{
+      border: #ccc 1px;
+      width: 200px;
     }
